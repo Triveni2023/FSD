@@ -1,0 +1,39 @@
+body {
+  background-color:   rgb(245, 210, 164);
+  line-height: 1.1;
+}
+p{
+  padding-left: 1rem;
+}
+table, th, tr, td, caption {
+  border:2px solid #000000 ;
+  font-family: 'Courier New', Courier, monospace;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
+.one {
+  color: rgb(16, 72, 54);
+  font-family: cursive;
+}
+.two {
+  color: rgb(16, 72, 54);
+  font-family: cursive;
+}
+.three {
+  color: rgb(16, 72, 54);
+}
+.highlight{
+  color: crimson;
+}
+.img{
+  padding-left: 10rem;
+}
+h1{
+  padding-left: 47%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #000000;
+ background-color: rgb(224, 222, 190);
+}
+h4{
+  color:#8b11cd;
+}
