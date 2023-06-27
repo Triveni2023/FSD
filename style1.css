@@ -1,0 +1,100 @@
+body {
+  background-color: rgb(255, 243, 228);
+  line-height: 1.1;
+}
+p{
+  padding-left: 1rem;
+}
+table, th, tr, td, caption {
+  border:2px solid #000000 ;
+  font-family: 'Courier New', Courier, monospace;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
+.one {
+  color: rgb(16, 72, 54);
+  font-family: cursive;
+}
+.two {
+  color: rgb(16, 72, 54);
+  font-family: cursive;
+}
+.three {
+  color: rgb(16, 72, 54);
+}
+.highlight{
+  color: crimson;
+}
+h1{
+  padding-left: 47%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #000000;
+ background-color: rgb(224, 222, 190);
+}
+h4{
+  color:#8b11cd;
+}
+.container{
+  display: grid;
+  grid-template-rows: 450px ;
+  grid-template-columns: 500px 400px;
+  gap:20px
+}
+.container > div {
+  padding: 15px;
+}
+.cont {
+  background-color: rgb(103, 100, 97);
+  flex: auto;
+  border: 2px solid rgb(6, 6, 6);
+  width: 470px;
+}
+.cont1{
+  background-color: bisque;
+  border: 2px solid #000;
+}
+.container2{
+  display: grid;
+  grid-template-columns: 450px 450px;
+  grid-template-rows: 380px;
+  grid-gap:1rem;
+  padding: 10px;
+}
+.container2 > div {
+  padding: 20px;
+}
+.container21{
+  background-color: rgb(103, 100, 97);
+  border: 2px solid #000;
+}
+.container22{
+  background-color: bisque;
+  border: 2px solid #000;
+}
+.container1{
+  display: flex;
+  gap: 10px;
+}
+.container1 > div {
+  padding: 10px;
+}
+.container11 {
+  background-color: rgb(103, 100, 97);
+  flex: auto;
+  border: 2px solid rgb(6, 6, 6);
+}
+.container12 {
+  background-color: bisque;
+  border: 2px solid #000;
+}
+.container13 {
+  background-color: bisque;
+  border: 2px solid #000;
+}
+.container3 {
+  display: grid;
+  background-color: bisque;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  
+}
